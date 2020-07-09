@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dynamic_beat_8.RootController">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pretty_girl_headphones_music-wallpaper-1280x720.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="start" layoutX="114.0" layoutY="223.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="250.0" text="시작">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit" layoutX="114.0" layoutY="336.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="250.0" text="나가기">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

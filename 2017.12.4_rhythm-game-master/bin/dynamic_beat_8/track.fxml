@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dynamic_beat_8.TrackController">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pretty_girl_headphones_music-wallpaper-1280x720.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="easy" layoutX="441.0" layoutY="548.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="easy" />
+      <Button fx:id="hard" layoutX="711.0" layoutY="548.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="hard" />
+      <HBox alignment="CENTER" layoutY="100.0" prefHeight="100.0" prefWidth="1280.0" spacing="100.0">
+         <children>
+            <Button fx:id="left" mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="&lt;" />
+            <ImageView fx:id="track_image" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/Mighty%20Love%20Start%20Image.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="right" mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="&gt;" />
+         </children>
+      </HBox>
+      <Button fx:id="exit" layoutX="1070.0" layoutY="548.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="나가기" />
+   </children>
+</AnchorPane>

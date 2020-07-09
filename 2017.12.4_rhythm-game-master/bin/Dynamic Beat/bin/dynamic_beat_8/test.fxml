@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dynamic_beat_8.TestController">
+   <children>
+      <Label fx:id="label1" layoutX="147.0" layoutY="345.0" text="Label" />
+      <Label fx:id="label2" layoutX="178.0" layoutY="345.0" text="Label" />
+      <Label fx:id="label3" layoutX="209.0" layoutY="345.0" text="Label" />
+      <Canvas fx:id="canvas" height="200.0" layoutX="125.0" layoutY="110.0" width="200.0" />
+      <Circle fx:id="circle" fill="DODGERBLUE" layoutX="139.0" layoutY="124.0" radius="14.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
